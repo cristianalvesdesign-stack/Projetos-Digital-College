@@ -1,0 +1,118 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana;
+}
+
+body {
+    background-color: rgb(231, 229, 253);
+}
+
+.hero {
+    background-color: white;
+    margin: 10px 20px;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: blue;
+    padding: 6px 12px;
+    background-color: rgb(231, 229, 253);
+    width:fit-content;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+.title .company p {
+    font-size: 14px;
+}
+
+.title .icon-company {
+    display: flex;
+    align-items: center;
+}
+
+.title .icon-company svg {
+    width:16px;
+    height: 16px;
+}
+
+.call {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.call p {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 7px;
+    line-height: 1.8;
+}
+
+h1 span {
+    color: blue;
+}
+
+.cards {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    background-color: rgb(231, 229, 253);
+    width: 250px;
+    border-radius: 10px;
+    padding-bottom: 13px;
+}
+
+.cards .card .icons {
+    display: flex;
+    justify-content: space-between;
+    color: blue;
+    padding: 6px 12px;
+    background-color: rgb(231, 229, 253);
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+.cards .card .chamada {
+    font-weight: bold;
+    font-size: 10px;
+    padding: 6px 12px;
+}
+
+.cards .card .descricao {
+    font-size: 8px;
+    padding: 2px 12px 0px 12px;;
+    margin-top: none;
+    margin-bottom: 15px;
+}
+
+.cards .card .button {
+    display: flex;
+    align-items:center;
+    gap: 10px;
+    color: blue;
+    padding: 6px 10px;
+    background-color: rgb(244, 244, 252);
+    width: 200px;
+    border-radius: 20px;
+    margin: 0 auto;
+}
+
+.cards .card .button .icon-button svg {
+    width: 12px;
+    height: 12px;
+}
+
+.cards .card .button .text-button {
+    font-size: 9px;
+}
