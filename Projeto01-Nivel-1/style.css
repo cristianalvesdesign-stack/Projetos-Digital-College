@@ -128,13 +128,6 @@ h1 span {
     font-size: 9px;
 }
 
-
-
-
-
-
-
-
 .card2 {
     background-color: rgb(3, 3, 32);
     width: 250px;
@@ -202,4 +195,49 @@ h1 span {
 
 .cards .card2 .button2 .text-button2 {
     font-size: 9px;
+}
+
+.user-consult {
+    border: 1px solid rgb(216, 216, 216);
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    align-items: center;
+    width: 550px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+
+.user-consult .consult-icon {
+    color: blue;
+    background-color: rgb(229, 220, 255);
+    border-radius: 10px;
+    padding: 2px;
+}
+
+.user-consult .consult-icon svg {
+    width: 25px;
+    height: 25px;
+}
+
+.user-consult .consult-title {
+    font-size: 13px;
+}
+
+.user-consult .consult-title p {
+    font-size: 11px;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    background-color: rgb(22, 143, 243);
+    color: white;
+    padding: 5px 8px;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: rgb(15, 71, 117);
 }
