@@ -71,6 +71,7 @@ h1 span {
     width: 250px;
     border-radius: 10px;
     padding-bottom: 13px;
+    margin-bottom: 30px;
 }
 
 .cards .card .icons {
@@ -81,6 +82,16 @@ h1 span {
     background-color: rgb(231, 229, 253);
     margin: 0 auto;
     border-radius: 20px;
+}
+
+.cards .card .icons .left {
+    padding: 1px;
+    margin-top: 5px;
+}
+
+.cards .card .icons .right {
+    padding: 1px;
+    margin-top: 5px;
 }
 
 .cards .card .chamada {
@@ -114,5 +125,81 @@ h1 span {
 }
 
 .cards .card .button .text-button {
+    font-size: 9px;
+}
+
+
+
+
+
+
+
+
+.card2 {
+    background-color: rgb(3, 3, 32);
+    width: 250px;
+    border-radius: 10px;
+    padding-bottom: 13px;
+    margin-bottom: 30px;
+}
+
+.cards .card2 .icons2 {
+    display: flex;
+    justify-content: space-between;
+    color: blue;
+    padding: 6px 12px;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+.cards .card2 .icons2 .left2 {
+    background-color: rgb(93, 93, 255);
+    color: white;
+    border-radius: 20px;
+    padding: 1px;
+    margin-top: 5px;
+}
+
+.cards .card2 .icons2 .right2 {
+    background-color: white;
+    color: rgb(56, 56, 56);
+    border-radius: 20px;
+    padding: 1px;
+    margin-top: 5px;
+}
+
+.cards .card2 .chamada2 {
+    font-weight: bold;
+    font-size: 10px;
+    padding: 6px 12px;
+    color: white;
+}
+
+.cards .card2 .descricao2 {
+    font-size: 8px;
+    padding: 2px 12px 0px 12px;;
+    margin-top: none;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.cards .card2 .button2 {
+    display: flex;
+    align-items:center;
+    gap: 10px;
+    color: white;
+    padding: 6px 10px;
+    background-color: rgb(31, 31, 66);
+    width: 200px;
+    border-radius: 20px;
+    margin: 0 auto;
+}
+
+.cards .card2 .button2 .icon-button2 svg {
+    width: 12px;
+    height: 12px;
+}
+
+.cards .card2 .button2 .text-button2 {
     font-size: 9px;
 }
