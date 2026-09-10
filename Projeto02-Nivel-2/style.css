@@ -71,3 +71,28 @@ nav a:hover {
     background-color: #757575;
     color: white;
 }
+.introduction {
+    text-align: center;
+    margin-top: 40px;
+}
+.introduction .light {
+    color: rgb(173, 173, 173);
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: 200;
+    margin-bottom: 2px;
+}
+.introduction h1 {
+    font-size: 60px;
+    line-height: 1.1;
+    font-weight: 700;
+    color: #172020;
+}
+.introduction h1 span {
+    color: rgb(102, 102, 102);
+}
+.introduction > p:last-child {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #66708f;
+}
