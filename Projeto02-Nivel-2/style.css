@@ -96,3 +96,102 @@ nav a:hover {
     line-height: 1.6;
     color: #66708f;
 }
+.cards {
+    display: flex;
+    justify-content:center;
+    gap: 150px;
+    margin-top: 60px;
+}
+.card {
+    width: 330px;
+    min-height: 430px;
+    padding: 30px;
+    background-color: rgb(252, 249, 249);
+    border-radius: 30px;
+    box-shadow: 0 5px 20 px rgba(0, 0, 0, 0.88);
+    
+    display: flex;
+    flex-direction: column;
+}
+.card-icon {
+    width: 50px;
+    height: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #f3eee3;
+    border: 1px solid #e5dccb;
+    border-radius: 50%;
+
+    margin-bottom: 15px;
+}
+.card-icon svg {
+    width: 24px;
+    height: 24px;
+}
+.card-title {
+    margin-bottom: 8px;
+}
+.card-title h2 {
+    font-size: 30px;
+    color: #172020;
+    font-weight: 700;
+}
+.card-princing {
+    display: flex;
+    align-items: baseline;
+    gap: 4px;
+    margin-bottom: 15px;
+    color: #0d514e;
+}
+.card-princing span {
+    font-size: 16px;
+    color: #0d514e;
+}
+.card-princing strong {
+    font-size: 32px;
+    font-weight: 700;
+    color:#0d514e
+}
+.card-princing small {
+    font-size: 14px;
+    color: #555;
+}
+.card-description {
+    margin-bottom: 20;
+}
+.card-description p {
+    font-size: 14px;
+    line-height: 1.4;
+    color: #66706f;
+}
+.card-toppings {
+    list-style: none;
+    margin: 0 0 30px 0;
+}
+.card-toppings li {
+    font-size: 13px;
+    color: #4f5958;
+}
+.card-button {
+    margin-top: 20px;
+    cursor: pointer;
+}
+.card-button p {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #0d514e;
+    border-radius: 30px;
+    color: #0d514e;
+    font-size: 18px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+.card-button p:hover {
+    background-color: #0d514e;
+    color: white;
+}
